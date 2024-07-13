@@ -26,3 +26,8 @@ body {
 .card-text {
     color: white;
 }
+
+footer {
+    background-color:  rgb(6, 185, 240);
+    color: white;
+}
