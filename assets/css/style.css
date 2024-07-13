@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.carousel-item {
+    height: 100vh;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.card {
+    background-color: rgb(6, 185, 240);
+    color: white;
+}
+
+.card-text {
+    color: white;
+}
