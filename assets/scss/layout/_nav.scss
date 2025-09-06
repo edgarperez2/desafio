@@ -1,0 +1,7 @@
+@use "../abstracts/mixins" as m;
+
+.navbar {
+    &-brand {
+        font-weight: 700;
+    }
+}

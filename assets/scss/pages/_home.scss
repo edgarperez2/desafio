@@ -1,0 +1,51 @@
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
+
+
+
+.hero {
+    @include m.separacionVertical;
+
+    &__contenido {
+        @include m.separacionHorizontal;
+
+        @include m.tablet {
+            padding: 0;
+        }
+    }
+}
+
+.habilidades {
+    @include m.separacionVertical;
+    // flex-direction: column;
+
+    @include m.separacionHorizontal;
+
+    @include m.tablet {
+        padding: 0;
+    }
+
+
+    .icono {
+        svg {
+            width: 3rem;
+        }
+    }
+}
+
+
+.proyectos {
+    @include m.separacionVertical;
+
+    &__imagen {
+
+        @include m.tablet {
+            width: 18rem;
+        }
+
+        img {
+            object-fit: cover;
+        }
+    }
+
+}

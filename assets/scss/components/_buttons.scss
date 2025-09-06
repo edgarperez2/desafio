@@ -1,0 +1,22 @@
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
+
+
+
+
+.btn {
+    width: 100%;
+
+    @include m.tablet {
+        width: 20rem;
+    }
+}
+
+.link {
+    opacity: .3; 
+    @include m.transition(opacity);
+
+    &:hover {
+        opacity: unset;
+    }
+}

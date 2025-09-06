@@ -1,0 +1,12 @@
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
+
+.contacto {
+    @include m.separacionVertical;
+
+    .icono {
+        svg {
+            width: 1.5rem;
+        }
+    }
+}
